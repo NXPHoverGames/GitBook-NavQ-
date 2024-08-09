@@ -64,9 +64,19 @@ Note: The VPU is encoding two streams in parallel as we have different text over
 
 &#x20;
 
-### Note on hostapd
+## Note on hostapd
 
-* To avoid setting up a Wi-Fi router `hostapd` was installed so that the NavQPlus is an access point. Also, a DHCP server was configured. This way I could directly connect to the WiFi network which was spawned by the NavQPlus:
-* IP address 10.0.1.101 is coming from the DHCP server on the NavQPlus.
+To avoid  needing to set up a Wi-Fi router `hostapd` can be installed so that the NavQPlus acts as an access point. Additionally a DHCP server can be configured. This way you can directly connect to the WiFi network spawned by the NavQPlus:\
+
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+Shown highlighted below, the IP address 10.0.1.101 is coming from the DHCP server on the NavQPlus.
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+
+
+
 
 &#x20;\
